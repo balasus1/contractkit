@@ -2,7 +2,7 @@
 
 > Design, build, test, and generate API contracts — all in one place.
 
-Contract Kit is a powerful full-stack developer toolkit for **API contract design, code generation, and integration workflows**. It bridges the gap between backend, frontend, and API documentation by providing a unified, developer-first experience.
+Contract Kit AKA Contract First API kit is a powerful full-stack developer toolkit for **API contract design, code generation, and integration workflows**. It bridges the gap between backend, frontend, and API documentation by providing a unified, developer-first experience.
 
 ---
 
@@ -12,6 +12,7 @@ Modern API development is fragmented:
 - Backend defines contracts
 - Frontend guesses types
 - Docs go out of sync
+- Max. 4 days or approx. 0.5 sprint are wasted in communicating back and forth with frontend and backend team to keep the REST API Request payloads and Response from Server to keep them aligned and in agreement how the business needs them.
 
 👉 Contract Kit solves this by making the **API contract the single source of truth**.
 
@@ -23,7 +24,10 @@ Modern API development is fragmented:
 - Define **project metadata** (name, module, version, base package)
 - Global **base path** (e.g. `/api/v1`)
 - Custom naming for generated **Controllers & Services**
+- Dynamic Form Builder
 - Clone projects & **bump versions instantly**
+- History logs
+- Rollback of generated OpenAPI config files
 
 ---
 
@@ -59,6 +63,7 @@ Generate everything from your contract:
 - 🔵 **Angular Services (typed)**
 - 📄 **OpenAPI (Swagger) YAML**
 - 📦 Export as **ZIP bundle**
+- Download customized OpenAPI as JSON or YAML
 
 ---
 
@@ -94,7 +99,7 @@ Generate everything from your contract:
 
 - Backend-first API design  
 - Frontend-backend contract alignment  
-- Rapid prototyping for SaaS products  
+- Rapid prototyping for any microservices design  
 - OpenAPI-driven development  
 - Developer tooling / platform engineering  
 
@@ -133,6 +138,8 @@ UI screenshots / demo GIFs will go here
 * GraphQL support
 * Team collaboration features
 * Cloud sync
+* Role based form viewer and approval on form fields by PROJECT_MANAGER, FUNCTIONAL_TEAM, FRONT_END
+
 
 🤝 Contributing
 
