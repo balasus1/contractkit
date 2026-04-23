@@ -17,6 +17,15 @@ Modern API development is fragmented:
 👉 Contract Kit solves this by making the **API contract the single source of truth**.
 
 ---
+## High Level Architecture
+
+<img width="1176" height="935" alt="image" src="https://github.com/user-attachments/assets/14633566-20c5-4551-b1a3-063223425201" />
+
+---
+
+💡  Contract Kit follows a **contract-first, code-generation-driven architecture** that ensures consistency across backend, frontend, and API documentation layers.
+
+---
 
 ## 🧩 Core Features
 
